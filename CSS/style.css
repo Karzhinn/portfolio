@@ -36,7 +36,7 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #FFEBC6;
+    color: #dcf2fa;
 }
 @media (max-width: 768px){
     #name{
@@ -60,7 +60,7 @@ a:hover{
     top: 85%; 
     left: 50%;
     transform: translate(-50%, 0); 
-    color: #FFEBC6;
+    color: #dcf2fa;
 }
 
 .clickables h1 {
@@ -69,7 +69,7 @@ a:hover{
 }
 
 body {
-    background-color: #006C67;
+    background-color: #0d5273;
     color: white;
     height: 100vh;
     
@@ -92,12 +92,14 @@ h1, h4 {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    color: #FFEBC6;
+    color: #dcf2fa;
     z-index: 1;
     width: 60dvw;
     text-align: justify;
 }
-
+.about h1{
+    color: #FFEBC6;
+}
 @media (max-width: 768px){
     .about{
         width: 100%;
@@ -118,8 +120,8 @@ h1, h4 {
     z-index: 1000;
 }
 .dropbtn {
-    background-color: #003844;
-    color: #FFEBC6;
+    background-color: #0d5273;
+    color: #ffffff;
     padding: 10px 14px 11px 14px;
     font-size: 20px;
     border: none;
@@ -137,7 +139,7 @@ h1, h4 {
 }
 
 .dropbtn:hover {
-    background-color: #FFB100;
+    background-color: #003844;
 }
 
 .dropdown-content {
@@ -146,7 +148,7 @@ h1, h4 {
     position: absolute;
     right: 0;
     top: 60px; 
-    background-color: #FFB100;
+    background-color: #0d5273;
     min-width: 50px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
